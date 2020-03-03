@@ -1,35 +1,27 @@
 .header {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 40px;
-  align-items: baseline;
-}
-
-.header ul {
-  display: flex;
+  margin-top: .5rem;
+  padding-left: 10px;
 }
 
 .header ul li {
-  margin-left: 20px;
   list-style: none;
+  margin: 0;
+  padding: .5rem 1rem;
+  border-radius: 3px;
 }
 
 .header ul li:hover {
-  color: orange;
-  cursor: pointer;
+  background-color: #444;
 }
 
-.logo {
-  font-size: 28px;
-  transform: translateY(-3px);
-  color: #fff;
-}
-
-.logo:hover {
+.header a:hover {
   text-decoration: none;
-  color: inherit;
 }
 
-.logo-sub {
-  color: orange;
+.header h3 a {
+  color: white;
+}
+
+.header h3 a:hover {
+  color: #00bc8c;
 }

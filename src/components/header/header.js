@@ -4,17 +4,23 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="header-logo">
-        <a className="logo" href="#">Star<span className="logo-sub">DB</span></a>
-      </div>
-      <nav>
-        <ul>
-        <li>People</li>
-        <li>Planets</li>
-        <li>Starships</li>
-        </ul>
-      </nav>
+    <div className="header d-flex">
+      <h3>
+        <a href="#">
+          Star DB
+        </a>
+      </h3>
+      <ul className="d-flex">
+        <li>
+          <a href="#">People</a>
+        </li>
+        <li>
+          <a href="#">Planets</a>
+        </li>
+        <li>
+          <a href="#">Starships</a>
+        </li>
+      </ul>
     </div>
   );
 };

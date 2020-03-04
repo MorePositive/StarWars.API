@@ -7,11 +7,11 @@
   width: 150px;
   height: 150px;
   border-radius: 10px;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .random-planet .list-group {
-  margin: 1rem 0 0 1rem;
+  margin: 1rem 0 0 0;
 }
 
 .random-planet .list-group-item {
